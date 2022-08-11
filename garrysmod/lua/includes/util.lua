@@ -479,3 +479,7 @@ function GetConVarString( name )
 	local c = GetConVar( name )
 	return ( c and c:GetString() ) or ""
 end
+
+function garry()
+	error("garry")
+end
